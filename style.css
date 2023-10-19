@@ -35,6 +35,7 @@
 
 }
 .parent{
+    background-color: var(--background);
     display: flex;
     height: 100%;
     width: 100%;
@@ -75,7 +76,6 @@ html{
 #MainIframe{
     width: 99%;
     height: 88%;
-    background: var(--background);
     border: 0;
     margin: 6px;
     border-radius: 15px;
