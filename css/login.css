@@ -6,7 +6,28 @@ body{
 }
 
 #loginTitle{
-    margin-top:20%;
     text-align: center;
+    font-size: xx-large;
     font-family: 'Orbitron', sans-serif;
+}
+
+.parent{
+    align-content: center;
+    justify-content: center;
+}
+
+.items{
+    display: flex;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: center;
+    align-content: center;
+    margin:10px;
+    font-size: x-large;
+}
+
+.in{
+    align-self: center;
+    height: fit-content;
+    margin-left: 10px;
+
 }

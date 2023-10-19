@@ -9,16 +9,16 @@
     </head>
     <body>
         <div id="loginTitle">
-            <h3> Log In</h3>
+            <h3> Login</h3>
         </div>
         <div class="parent">
-            <div class="parent">
+            <div class="items">
                 <p> Username</p>
-                <input type="text" name="Username" aria-label="username">
+                <input type="text" class="in" name="Username" aria-label="username">
             </div>
-            <div class="container">
+            <div class="items">
                 <p> Password</p>
-                <input type="password" name="Password" aria-label="password">
+                <input type="password" class="in" name="Password" aria-label="password">
             </div>
         </div>
     </body>

@@ -10,11 +10,6 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
-  <component name="PhpIncludePathManager">
-    <include_path>
-      <path value="$PROJECT_DIR$/../../../../php/pear" />
-    </include_path>
-  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="a5bcc6d7-83c3-4926-9588-523208bd3422" name="pi@baberion.de:22 password" home="sshConfig://DATA" auto="false" debugger_id="php.debugger.XDebug">

@@ -17,11 +17,20 @@
  <div class="parent">
   <div id="SideBar">
    <div class="SideBarItems">
-    <a href="Frames/Home.html" target="MainIframe"> Data </a>
+    <a href="Frames/Home.html" target="MainIframe" class="items">
+     <div>Home</div>
+    </a>
+    <a href="Frames/login.php" target="MainIframe" class="items">
+     <div>Login</div>
+    </a><a href="Frames/Data.php" target="MainIframe" class="items">
+    <div>Server</div>
+   </a><a href="Frames/EMail.php" target="MainIframe" class="items">
+    <div>E-Mail</div>
+   </a>
    </div>
   </div>
   <div id="Main">
-   <iframe id="MainIframe" name="MainIframe">
+   <iframe id="MainIframe" name="MainIframe" src="Frames/Home.html">
 
    </iframe>
   </div>

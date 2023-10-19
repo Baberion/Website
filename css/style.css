@@ -8,7 +8,7 @@
     font-palette: Dark;
     width: auto ;
     height: 60px;
-    background-color: var(--background);
+    background-color: black;
     margin: 6px;
     border-radius: 15px;
 }
@@ -18,11 +18,13 @@
     height: 73%   ;
     margin-left: 6px;
 }
-#Header_h1{
+#Header_h1 a{
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     margin-left: 10px;
-
+    color: white;
+    text-decoration: inherit;
+    align-self: center;
 }
 #login{
     font-size: xxx-large;
@@ -31,18 +33,17 @@
     margin-right: 10px;
     border-radius: 100%;
     padding: 3px;
-    background-color: rgba(0,0,0,15%);
+    background-color: white;
 
 }
 .parent{
-    background-color: var(--background);
     display: flex;
     height: 100%;
     width: 100%;
 }
 #SideBar{
     width: 15% ;
-    height: 88%;
+    height: fit-content;
     background-color: var(--background);
     border-radius: 15px;
     margin: 6px;
@@ -50,6 +51,7 @@
 .SideBarItems a{
     color:black;
     margin: 6px;
+    padding: 3px;
 }
 #Main {
     flex: 1;
@@ -64,7 +66,7 @@ body{
     min-height: 50px;
     margin: 0;
     overflow: hidden;
-    background-image: linear-gradient(69grad, purple,rebeccapurple, blue);
+    background-image: linear-gradient(180deg, purple,blueviolet, blue 140%);
 
 
 }
@@ -80,4 +82,18 @@ html{
     border: 0;
     margin: 6px;
     border-radius: 15px;
+}
+.items {
+    margin: 5px;
+    height: 30px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+.items div{
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
 }
