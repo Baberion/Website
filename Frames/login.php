@@ -5,14 +5,14 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" >
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../css/login.css">
     </head>
     <body>
         <div id="loginTitle">
             <h3> Log In</h3>
         </div>
-        <div class="container">
-            <div class="container">
+        <div class="parent">
+            <div class="parent">
                 <p> Username</p>
                 <input type="text" name="Username" aria-label="username">
             </div>
