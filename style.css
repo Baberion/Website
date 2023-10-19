@@ -1,0 +1,25 @@
+#Header{
+    background-color: aquamarine;
+    border: black;
+    font-palette: Dark;
+    width: auto ;
+    height: 40px;
+}
+#Parent{
+    display: flex;
+}
+#SideBar{
+    width: 20% ;
+    background-color: purple;
+}
+#Main {
+    flex: 1;
+    width: auto;
+    height: auto;
+    background-color: blue;
+
+}
+
+#Table {
+
+}
