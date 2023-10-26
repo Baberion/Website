@@ -28,12 +28,21 @@
     <div>E-Mail</div>
    </a>
    </div>
+
   </div>
+ <div class="controls">
+     <input type="submit" name="update" value="update" formmethod="get">
+ </div>
   <div id="Main">
    <iframe id="MainIframe" name="MainIframe" src="Frames/Home.html">
-
    </iframe>
   </div>
  </div>
  </body>
+<?php
+
+$update = $_GET['update'];
+echo $update;
+?>
 </html>
+
