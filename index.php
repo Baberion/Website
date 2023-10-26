@@ -27,6 +27,12 @@
    </a><a href="Frames/EMail.php" target="MainIframe" class="items">
     <div>E-Mail</div>
    </a>
+    <a href="Frames/EMail.php" target="MainIframe" class="items">
+    <div>Card Game</div>
+   </a>
+   <a href="http://localhost:8080" target="MainIframe" class="items">
+    <div>Console</div>
+   </a>
    </div>
 
   </div>
