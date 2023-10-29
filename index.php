@@ -55,5 +55,9 @@
         ?>
     }
 </script>
+ <?php
+ global $user, $userid;
+
+ ?>
 
 </html>
