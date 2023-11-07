@@ -12,7 +12,8 @@
   </component>
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/../../../../php/pear" />
+      <path value="C:/php/pear" />
+      <path value="C:/PHP/7.4.33" />
     </include_path>
   </component>
   <component name="PhpInterpreters">

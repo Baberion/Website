@@ -38,7 +38,7 @@
 
       </div>
       <div class="controls">
-          <button id="update" onclick="update()"> Update </button>
+          <button id="update"> Update </button>
       </div>
   </div>
   <div id="Main">
@@ -47,17 +47,5 @@
   </div>
  </div>
  </body>
-
-<script>
-    function update() {
-        <?php
-
-        ?>
-    }
-</script>
- <?php
- global $user, $userid;
-
- ?>
 
 </html>

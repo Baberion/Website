@@ -11,29 +11,43 @@
         <div id="loginTitle">
             <h3> Login</h3>
         </div>
-        <div class="parent">
-            <div class="items">
-                <p> Username</p>
-                <input type="text" class="in" name="Username" aria-label="username">
+        <form action="" method="post">
+            <div class="parent">
+                <div class="items">
+                    <p> Username</p>
+                    <input type="text" class="in" name="Username" aria-label="username">
+                </div>
+                <div class="items">
+                    <p> Password</p>
+                    <input type="password" class="in" name="Password" aria-label="password">
+                </div>
             </div>
-            <div class="items">
-                <p> Password</p>
-                <input type="password" class="in" name="Password" aria-label="password">
+            <div class="parent">
+                <div class="items">
+                    <input type="submit" name="login" value="login">
+                </div>
+
             </div>
-        </div>
-        <div class="parent">
-            <div class="items">
-                <input type="button" value="">
-            </div>
-            <div class="items">
-                <input type="button" value="">
-            </div>
-        </div>
+        </form>
         
     </body>
 
 </html>
 
 <?php
+    $GLOBALS['con'] = new mysqli($GLOBALS['host'], $GLOBALS['user'], $GLOBALS['password'], $GLOBALS['db']);
 
-?>
+    if(!$GLOBALS['con'] -> connect_error){
+        die("no connection");
+    }
+
+    if(isset($_POST['login']) && isset($_POST['Username']) && isset($_POST['password'])) {
+        $username = $_POST['Username'];
+        $password = $_POST['Password'];
+        $string = "select password from user where user == ''".$_POST['Username']."'';";
+        if (mysqli_query($GLOBALS['con'], $string)[0] == $_POST['Password']){
+            $globals['userID'] = mysqli_query($GLOBALS['con'], "select ID from user where user == $username and where password == $password;");
+            echo $GLOBALS['userID'];
+        }
+    }
+    ?>
