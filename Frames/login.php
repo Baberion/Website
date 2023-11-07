@@ -35,7 +35,8 @@
 </html>
 
 <?php
-    $GLOBALS['con'] = new mysqli($GLOBALS['host'], $GLOBALS['user'], $GLOBALS['password'], $GLOBALS['db']);
+    include "../vars/globaldatabase.php";
+    $GLOBALS['con'] = new mysqli($GLOBALS["dbHost"], $GLOBALS["dbUser"], $GLOBALS["dbPassword"], $GLOBALS['db'],"3306");
 
     if(!$GLOBALS['con'] -> connect_error){
         die("no connection");

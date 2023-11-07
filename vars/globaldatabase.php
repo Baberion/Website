@@ -1,13 +1,13 @@
 <?php
-    global $host;
-    global $user;
-    global $password;
+    global $dbHost;
+    global $dbUser;
+    global $dbPassword;
     global $db;
-    global $con;
+    global $dbCon;
 
     global $userID;
 
     $host = "baberion.de";
     $user = "baberion";
-    $passwort  = "toor";
+    $password  = "toor";
     $db = "Website";
