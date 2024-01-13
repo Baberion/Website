@@ -34,6 +34,9 @@
               <a href="" target="MainIframe" class="items">
                   <div>Console</div>
               </a>
+              <a href="admin/index.php" target="MainIframe" class="items">
+                  <div>PI HOLE</div>
+              </a>
           </div>
 
       </div>
